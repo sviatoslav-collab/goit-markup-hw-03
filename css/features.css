@@ -2,18 +2,18 @@
   background-color: #ffffff;
 }
 
-.features-title {
-  color: #2e2f42;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
+.features-list {
+  display: flex;
+  gap: 24px;
 }
 
-.features-list {
-  list-style: none;
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
+  margin: 0 0 8px;
+
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
@@ -22,6 +22,8 @@
 }
 
 .features-text {
+  margin: 0;
+
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
