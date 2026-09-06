@@ -4,7 +4,6 @@
 
 .team-title {
   margin: 0 0 72px;
-
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
@@ -20,6 +19,7 @@
 .team-item {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-image {
@@ -35,7 +35,6 @@
 
 .team-name {
   margin: 0 0 8px;
-
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
@@ -45,7 +44,6 @@
 
 .team-position {
   margin: 0;
-
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
